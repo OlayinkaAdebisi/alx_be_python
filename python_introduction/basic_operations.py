@@ -1,5 +1,5 @@
-number1 = int(10)
-number2 = int(5)
+number1 = 10
+number2 = 5
 # performing basic arithmetic operations
 sum = number1 + number2
 difference = number1 - number2
