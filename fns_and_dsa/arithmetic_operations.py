@@ -1,6 +1,6 @@
 #stores the operation signs in a Tuple
 operation = ("add","subtract","multiply","divide")
-def perform_operation(num1: float,num2: float,operation: str(operation)):
+def perform_operation(num1,num2,operation: str(operation)):
 #use the match statement to correctly assign the operator
     match operation:
         case "add":
