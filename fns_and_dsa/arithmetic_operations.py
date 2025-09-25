@@ -1,5 +1,4 @@
 #stores the operation signs in a Tuple
-#operation = ("add","subtract","multiply","divide")
 def perform_operation(num1, num2, operation):
 #use the match statement to correctly assign the operator
     match operation:
@@ -12,7 +11,7 @@ def perform_operation(num1, num2, operation):
         case "divide":
             if num2==0:
                 print("Error division by zero")
-            else:
+            elif num2!=0:
                 return num1/num2
         case None:
             print("Input correct operator: 'add','subtract','multiply','divide'")
