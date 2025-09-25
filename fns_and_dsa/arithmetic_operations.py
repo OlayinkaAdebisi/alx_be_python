@@ -9,9 +9,9 @@ def perform_operation(num1, num2, operation):
         case "multiply":
             return num1*num2
         case "divide":
-            if num2==0:
-                print("Error division by zero")
-            elif num2!=0:
-                return num1/num2
+            if num2!=0:
+                return num1/num2                
+            elif num2 == 0:
+                print("Error division by zero")                
         case None:
             print("Input correct operator: 'add','subtract','multiply','divide'")
